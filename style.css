@@ -1,0 +1,158 @@
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 30px;
+      font-family: 'Bebas Neue';
+    }
+
+    h1 {
+      font-size: 70px;
+      font-family: 'Bebas Neue', cursive;
+      color: gray;
+      text-align: center;
+      margin: 0;
+      padding: 30px;
+      letter-spacing: 1px;
+      text-decoration-line: underline;
+    }
+
+    h2 {
+      font-size: 70px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      margin: 0;
+      padding: 50px;
+      letter-spacing: 1px;
+    }
+
+    h3 {
+      font-size: 35px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 900;
+      color: #000;
+      line-height: 70px;
+    }
+
+    h4 {
+      font-size: 35px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 500;
+      color: #000;
+      line-height: 70px;
+    }
+
+    h5{
+      font-size:35px;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-weight: 200;
+      line-height: 70px;
+      letter-spacing: 2px;
+    }
+
+    .hl1{
+      background-color: rgba(176, 224, 181, 0.3);
+    }
+
+    .hl2{
+      background-color: rgba(224, 176, 176, 0.3);
+    }
+
+    #wrap {
+        height: auto;
+        width:1440px;
+        line-height: 25px;
+        background-color: #ffffff;
+        text-transform:uppercase;
+        text-align: center;
+        align-content: center;
+    }
+
+    #header-wrap {
+        width:100%;
+        height: 270px;
+        align-content: center;
+        line-height: 30px;
+    }
+    .header-container {width:100%; height: 270px;}
+    
+    #introduction-wrap {
+      width:100%;
+      height: 100px;
+      margin: 30px;
+    }
+    .tab{width:100%; margin: 0 auto; height: 100px;}
+    .tabnav{font-size:0; width: auto; border:1px solid #ddd;}
+    .tabnav li{display: inline-block;  height:100px; text-align:center; border-left: 1px solid #ddd; border-right:1px solid #ddd;}
+    .tabnav li a:before{content:""; position:absolute; left:0; top:0px; width:100%; height:3px; }
+    .tabnav li a.active:before{background:#7ea21e;}
+    .tabnav li a.active{border-bottom:1px solid #ffffff;}
+    .tabnav li a{ position:relative; display:block; background:  #ffffff; color: #000; padding: 10px 20px 10px 20px; line-height:80px; text-decoration:none; font-size:40px;}
+    .tabnav li a:hover,
+    .tabnav li a.active{background:#ffffff; color:#7ea21e; }
+
+    .main-wrap{
+      display: inline-block;
+      width:100%;
+      background-image: url('배경픽셀2.png');
+      background-repeat: repeat;
+      text-transform: uppercase;
+      text-align: center;
+      align-content: center;
+    }
+
+    .title{width:1320px; height: auto; padding: 60px;}
+    .first-text{width:1360px; padding: 40px; height: auto; text-align: center;}
+
+    .tab01{width:1440px; height: 700px; padding: 100px 30px 100px 30px;}
+    .oryu-text{width:100%; height: auto;}
+
+    .tab02{width:1440px; height: 600px;}
+    .play-poster{width:100%;}
+    .synopsis-text{width:1320px; padding: 0px 60px 0px 60px; text-align:center; line-height: 40px;}
+
+
+    .tab04{width:1440px; height: 2000px; align-content: center;}
+    .cast-container {width:1440px; margin: 0 auto; height: 100%; align-content: center;}
+    .cast-photo {align-content: center; width: 400px; height: 700px; padding: 30px;}
+    .cast-text {width:1360px; padding: 40px; height: auto; text-align: left; background-color: rgba(255, 255, 255, 0.75);}
+
+
+    .tab05{width:1440px; height: auto;}
+    .interview-container {width:1440px; margin: 0 auto; height: 100%; align-content: stretch;}
+    .interview-text {width:1360px; padding: 40px; text-align: justify; background-color: rgba(255, 255, 255, 0.75);}
+
+    .tab06{width:1440px; height: auto;}
+    .staff-container {
+      align-content: center;
+      width:1440px;
+      height: auto;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.75);
+    }
+    .staff-photo{width:1440px;}
+    .staff-text {width:1360px; padding: 40px; height:auto; text-align: center; background-color: rgba(255, 255, 255, 0.75);}
+
+
+    .tab07{width:1440px; height: 4500px;}
+
+    .tab08{width:1440px; height: 800px;}
+    .name-list {width:1360px; padding: 40px; height:auto; text-align: center; background-color: rgba(255, 255, 255, 0.75); letter-spacing: 3px;}
+
+
+    #footer-wrap {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(220, 220, 220, 0.3);
+    }
+
+  
+    @font-face {
+        font-family:"Apple SD Gothic Neo",sans-serif;
+        src: local();
+        font-family: 'Bebas Neue', cursive, 'Noto Sans KR', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        unicode-range: U+0-10FFFF;
+      }
