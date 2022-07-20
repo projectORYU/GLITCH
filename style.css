@@ -112,7 +112,7 @@
 
     .tab02{width:1440px; height: 600px;}
     .play-poster{width:100%;}
-    .synopsis-text{width:1320px; padding: 0px 60px 0px 60px; text-align:center; line-height: 40px;}
+    .synopsis-text{width:1320px; padding: 0px 60px 0px 60px; text-align:center; line-height: 40px; background-color: rgba(255, 255, 255, 0.75);}
 
 
     .tab04{width:1440px; height: 2000px; align-content: center;}
@@ -134,7 +134,7 @@
       background-color: rgba(255, 255, 255, 0.75);
     }
     .staff-photo{width:1440px;}
-    .staff-text {width:1360px; padding: 40px; height:auto; text-align: center; background-color: rgba(255, 255, 255, 0.75);}
+    .staff-text {width:1360px; padding: 10px 40px 60px 40px; height:auto; text-align: center; background-color: rgba(255, 255, 255, 0.75);}
 
 
     .tab07{width:1440px; height: 4500px;}
